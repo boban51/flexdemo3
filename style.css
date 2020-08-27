@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.wrapper>* {
+    width: 100%;
+}
+
+
+header {
+    background: pink;
+}
+
+main {
+    order: 2;
+    background: grey;
+    flex: 1 0;
+}
+
+.aside-1 {
+    order: 1;
+    background: yellow;
+    width: 100px;
+}
+
+.aside-2 {
+    order: 3;
+    background: blue;
+    width: 100px;
+}
+
+footer {
+    order: 4;
+    background: green;
+}
